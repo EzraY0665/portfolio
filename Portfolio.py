@@ -136,12 +136,12 @@ tab1, tab2, tab3 = st.tabs([
 # Tab 1: Inventions
 # -------------------------------
 with tab1:
-    st.markdown("## Engineering the future of GPUs." if language=="English" else "## GPU的未来工程")
+    st.markdown("## Engineering and Energising the Future." if language=="English" else "## 精工筑世，动力未来")
     col1, col2 = st.columns(2)
 
     # MediCare
     with col1:
-        st.markdown("### MediCare Mobile App" if language=="English" else "### MediCare 移动应用")
+        st.markdown("### MediCare Mobile App" if language=="English" else "### MediCare 应用程序")
         st.video("https://youtu.be/yUmpZJamrjA")
         if language=="English":
             st.markdown("""
@@ -327,4 +327,5 @@ with tab3:
 # Footer
 # ===============================
 st.markdown("<p style='text-align:center; margin-top:50px; color: #86868b !important; opacity:0.6;'>Proprietary Portfolio Design | Ezra Yek © 2026</p>", unsafe_allow_html=True)
+
 
