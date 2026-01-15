@@ -89,7 +89,7 @@ h1, h2, h3, p, span, li, .stMarkdown {
 with st.sidebar:
     st.markdown("<h2 style='color:white !important;'>SYSTEM ACCESS | 系统访问</h2>", unsafe_allow_html=True)
     st.markdown("""
-    <div style='color: #a1a1a6; font-size: 0.8rem;'>OPERATOR / 操作员</div>
+    <div style='color: #a1a1a6; font-size: 0.8rem;'>FULL NAME / 全名</div>
     <div style='color: white; font-weight: 600; margin-bottom: 15px;'>Ezra Yek Nai En</div>
     <div style='color: #a1a1a6; font-size: 0.8rem;'>STATUS / 状态</div>
     <div style='color: #34c759; font-weight: 600;'>● AVAILABLE FOR INTERNSHIP / 可实习</div>
@@ -105,11 +105,11 @@ with st.sidebar:
 if language == "English":
     header_title = "Architecture & Innovation."
     header_subtitle = "Python · C++ · SystemVerilog · Arduino · Raspberry Pi · NI Multisim · PSpice"
-    portfolio_overview = "PORTFOLIO OVERVIEW // PLATFORM ARCHITECTURE CANDIDATE"
+    portfolio_overview = "PORTFOLIO OVERVIEW"
 else:
     header_title = "架构与创新"
     header_subtitle = "Python · C++ · 系统Verilog · Arduino · 树莓派 · NI Multisim · PSpice"
-    portfolio_overview = "作品集概览 // 平台架构候选人"
+    portfolio_overview = "作品集概览"
 
 st.markdown(f"""
 <div class="top-header">
@@ -327,3 +327,4 @@ with tab3:
 # Footer
 # ===============================
 st.markdown("<p style='text-align:center; margin-top:50px; color: #86868b !important; opacity:0.6;'>Proprietary Portfolio Design | Ezra Yek © 2026</p>", unsafe_allow_html=True)
+
