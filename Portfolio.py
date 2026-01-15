@@ -92,7 +92,7 @@ with st.sidebar:
     <div style='color: #a1a1a6; font-size: 0.8rem;'>FULL NAME / 全名</div>
     <div style='color: white; font-weight: 600; margin-bottom: 15px;'>Ezra Yek Nai En</div>
     <div style='color: #a1a1a6; font-size: 0.8rem;'>STATUS / 状态</div>
-    <div style='color: #34c759; font-weight: 550;'>● AVAILABLE FOR INTERNSHIP / 可实习</div>
+    <div style='color: #34c759; font-weight: 600;'>● AVAILABLE FOR INTERNSHIP </div>
     <div style='color: white; font-size: 0.85rem;'>May – Dec 2026 / 2026年5月 – 12月</div>
     """, unsafe_allow_html=True)
     st.divider()
@@ -327,6 +327,7 @@ with tab3:
 # Footer
 # ===============================
 st.markdown("<p style='text-align:center; margin-top:50px; color: #86868b !important; opacity:0.6;'>Proprietary Portfolio Design | Ezra Yek © 2026</p>", unsafe_allow_html=True)
+
 
 
 
