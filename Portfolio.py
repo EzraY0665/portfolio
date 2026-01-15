@@ -110,9 +110,10 @@ st.markdown("""
 tab1, tab2 = st.tabs(["[ 01 INVENTIONS ]", "[ 02 ACADEMICS ]"])
 
 with tab1:
-    st.markdown("## Engineering the future of GPUs. ") 
+    st.markdown("## Where code meets physical reality.") 
     col1, col2 = st.columns(2)
 
+    # ===== MediCare =====
     with col1:
         st.markdown("### MediCare Mobile App")
         st.video("https://youtu.be/yUmpZJamrjA")
@@ -120,15 +121,30 @@ with tab1:
         <div class="spec-grid">
             <div class="spec-card">
                 <div class="spec-title">The Vision</div>
-                <div class="spec-value"><b>Healthcare, simplified.</b> Developed as a Champion-tier project to bridge the gap between patients and providers.</div>
+                <div class="spec-value">
+                    <b>Healthcare, simplified.</b> MediCare was designed to bridge the gap between patients and providers, 
+                    putting clinical-grade tools like NPRA verification in your pocket—no physical visit required.
+                </div>
             </div>
             <div class="spec-card">
-                <div class="spec-title">Key Intelligence</div>
-                <div class="spec-value">BMI Analysis · Medical Records Vault · NPRA Verification.</div>
+                <div class="spec-title">Technical Execution</div>
+                <div class="spec-value">
+                    • <b>External Interface Integration:</b> Engineered deep-links to the NPRA portal, enabling real-time medicine verification within the app flow.<br>
+                    • <b>UI/UX Logic:</b> Architected a seamless transition between the native environment and external web resources for a unified user experience.<br>
+                    • <b>Data Architecture:</b> Developed a secure local 'Medical Records Vault' to manage user-inputted health history with high integrity.
+                </div>
+            </div>
+            <div class="spec-card">
+                <div class="spec-title">Engineering Philosophy</div>
+                <div class="spec-value">
+                    • <b>Resourceful Design:</b> Solved the challenge of medicine verification by intelligently leveraging official government databases.<br>
+                    • <b>System Thinking:</b> Optimized connectivity to verified information while maintaining a low-cost, high-efficiency server infrastructure.
+                </div>
             </div>
         </div>
         """, unsafe_allow_html=True)
 
+    # ===== Sneaker Steriliser (IPITEx) =====
     with col2:
         st.markdown("### Sneaker Steriliser")
         st.video("https://youtu.be/2WdHeu2sXKI")
@@ -136,11 +152,15 @@ with tab1:
         <div class="spec-grid">
             <div class="spec-card">
                 <div class="spec-title">The Vision</div>
-                <div class="spec-value"><b>Intelligence in every cycle.</b> Utilizing microcontrollers and multi-sensor feedback for automated hygiene.</div>
+                <div class="spec-value"><b>Intelligence in every cycle.</b> A hardware-software co-design using microcontroller logic for automated hygiene.</div>
             </div>
             <div class="spec-card">
-                <div class="spec-title">Technical Achievement</div>
-                <div class="spec-value">Bronze Prize at IPITEx Bangkok for hardware-software integration.</div>
+                <div class="spec-title">Technical Learnings</div>
+                <div class="spec-value">
+                    • <b>Sensor Fusion:</b> Learned to calibrate and synchronize multi-sensor arrays for real-time environment monitoring.<br>
+                    • <b>Hardware Control:</b> Gained deep insights into PWM (Pulse Width Modulation) and relay logic for sterilization hardware.<br>
+                    • <b>Prototyping Iteration:</b> Navigated the transition from breadboard simulation to a ruggedized physical prototype for international exhibition.
+                </div>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -154,8 +174,10 @@ with tab2:
     <div class="spec-card">
         <div class="spec-title">Key Performance Metrics</div>
         <div class="spec-value">
-            • <b>Microprocessor & Computer Architecture:</b> A- (Distinction)<br>
-            • <b>Integrated Circuit Fabrication:</b> Hands-on cleanroom experience in photolithography and etching.
+            • <b>Advanced Computing:</b> A- in Microprocessor & Computer Architecture; B+ in Structured Programming.<br>
+            • <b>Circuit Synthesis:</b> Proficient in NI Multisim and PSpice for complex system simulation.<br>
+            • <b>IC Fabrication:</b> Practical hands-on experience in Cleanroom Photolithography and Etching.<br>
+            • <b>Foundation Excellence:</b> 10As in SPM; Pearson LCCI Level 2 Certified.
         </div>
     </div>
     """, unsafe_allow_html=True)
