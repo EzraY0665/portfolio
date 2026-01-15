@@ -246,7 +246,7 @@ with tab1:
 # -------------------------------
 with tab2:
     st.markdown("## Academic Foundation" if language=="English" else "## 学术背景")
-    st.write("**Universiti Teknologi PETRONAS**" if language=="English" else "**马来西亚理工大学**")
+    st.write("**Universiti Teknologi PETRONAS**" if language=="English" else "**马来西亚国油科技大学**")
     st.write("B.Eng (Hons) Electrical & Electronics — **CGPA 3.03**" 
              if language=="English" else "电气与电子工程学士 — **CGPA 3.03**")
     
@@ -327,5 +327,6 @@ with tab3:
 # Footer
 # ===============================
 st.markdown("<p style='text-align:center; margin-top:50px; color: #86868b !important; opacity:0.6;'>Proprietary Portfolio Design | Ezra Yek © 2026</p>", unsafe_allow_html=True)
+
 
 
